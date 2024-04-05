@@ -1,6 +1,8 @@
 import React, { useEffect, useReducer, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import WOW from "wowjs";
+import { copy } from "../../data/copy";
+
 function Header() {
   const [sidebar, setSidebar] = useState(false);
   const [isSticky, setSticky] = useState(false);
@@ -75,9 +77,17 @@ function Header() {
           </div>
         </div>
         <div className="main-menu">
+
+
+
           <nav className={sidebar === 1 ? "main-nav slidenav" : "main-nav"}>
+
             <div className="mobile-menu-logo">
-              <Link to={"/"} onClick={scrollTop}>
+              <Link 
+                to={`${process.env.PUBLIC_URL}/`}
+                onClick={scrollTop}
+              >
+              {/* <Link to={"/"} onClick={scrollTop}> */}
                 <img
                   src={process.env.PUBLIC_URL + "img/logo-dark.svg"}
                   alt="images"
@@ -87,18 +97,23 @@ function Header() {
                 <i className="bi bi-plus-lg" />
               </div>
             </div>
+
             <ul>
               <li
                 className="has-child active"
                 onClick={() => dispatch({ type: "homeOne" })}
               >
-                <Link
+                <Link 
+                  to={`${process.env.PUBLIC_URL}/`}
+                  onClick={scrollTop}
+                >
+                {/* <Link
                   to={"#"}
                   className={state.activeMenu === "homeOne" ? "active" : ""}
-                >
+                > */}
                   Home
                 </Link>
-                <i className="bi bi-chevron-down" />
+                {/* <i className="bi bi-chevron-down" />
                 <ul
                   className={
                     state.activeMenu === "homeOne"
@@ -123,7 +138,7 @@ function Header() {
                       Home 02
                     </NavLink>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <NavLink
@@ -134,10 +149,14 @@ function Header() {
                 </NavLink>
               </li>
               <li>
-                <Link to={"#"} onClick={() => dispatch({ type: "service" })}>
+                <Link 
+                  to={`${process.env.PUBLIC_URL}/service`}
+                  onClick={scrollTop}
+                >
+                {/* <Link to={"#"} onClick={() => dispatch({ type: "service" })}> */}
                   Service
                 </Link>
-                <i className="bi bi-chevron-down" />
+                {/* <i className="bi bi-chevron-down" />
                 <ul
                   className={
                     state.activeMenu === "service"
@@ -161,9 +180,17 @@ function Header() {
                       Service Details
                     </NavLink>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
+                <NavLink
+                  to={`${process.env.PUBLIC_URL}/contact`}
+                  onClick={scrollTop}
+                >
+                  Contact Us
+                </NavLink>
+              </li>
+              {/* <li>
                 <Link to={"#"} onClick={() => dispatch({ type: "project" })}>
                   Project
                 </Link>
@@ -192,8 +219,8 @@ function Header() {
                     </NavLink>
                   </li>
                 </ul>
-              </li>
-              <li className="has-child">
+              </li> */}
+              {/* <li className="has-child">
                 <Link to={"#"} onClick={() => dispatch({ type: "blog" })}>
                   Blog
                 </Link>
@@ -230,8 +257,8 @@ function Header() {
                     </NavLink>
                   </li>
                 </ul>
-              </li>
-              <li className="has-child">
+              </li> */}
+              {/* <li className="has-child">
                 <Link to={"#"} onClick={() => dispatch({ type: "page" })}>
                   Pages
                 </Link>
@@ -276,24 +303,20 @@ function Header() {
                     </NavLink>
                   </li>
                 </ul>
-              </li>
-              <li>
-                <NavLink
-                  to={`${process.env.PUBLIC_URL}/contact`}
-                  onClick={scrollTop}
-                >
-                  Contact Us
-                </NavLink>
-              </li>
+              </li> */}
             </ul>
-            <div className="get-qoute d-flex justify-content-center d-lg-none d-block pt-50">
-                    <div className="cmn-btn">
-                        <div className="line-1"></div>
-                        <div className="line-2"></div>
-                        <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Get A Quote</Link>
-                    </div>
-                </div>
+
+            {/* <div className="get-qoute d-flex justify-content-center d-lg-none d-block pt-50">
+              <div className="cmn-btn">
+                  <div className="line-1"></div>
+                  <div className="line-2"></div>
+                  <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>Get A Quote</Link>
+              </div>
+            </div> */}
           </nav>
+
+
+
         </div>
         
         <div className="nav-right">
@@ -305,7 +328,7 @@ function Header() {
                 to={`${process.env.PUBLIC_URL}/contact`}
                 onClick={scrollTop}
               >
-                Get A Quote
+                {copy.utils.call_to_action}
               </Link>
             </div>
           </div>
