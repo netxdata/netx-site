@@ -36,18 +36,18 @@ function Root() {
       {/*main layout*/}
       <Route exact path="/" component={MainLayout} />
       {/* secound layout */}
-      <Route exact path="/index2" component={HomePageTwo} />
+      {/* <Route exact path="/index2" component={HomePageTwo} /> */}
       {/* all inner page load layout component */}
       <Layout>
-        {/* <Route
-          exact
-          path={`${process.env.PUBLIC_URL}/about-us`}
-          component={AboutPage}
-        /> */}
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/about`}
           component={About}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/service`}
+          component={Service}
         />
         <Route
           exact
@@ -59,56 +59,60 @@ function Root() {
           path={`${process.env.PUBLIC_URL}/error`}
           component={ErrorPage}
         />
-        <Route
+        {/* <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/about-us`}
+          component={AboutPage}
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/blog`}
           component={BlogSidebar}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/blog-standard`}
           component={BlogStandard}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/blog-details`}
           component={BlogDetails}
-        />
-        <Route
-          exact
-          path={`${process.env.PUBLIC_URL}/service`}
-          component={Service}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/service-details`}
           component={ServiceDetails}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/project-details`}
           component={ProjectDetails}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/project`}
           component={Project}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/team`}
           component={Team}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/pricing`}
           component={Pricing}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={`${process.env.PUBLIC_URL}/faq`}
           component={Faq}
-        />
+        /> */}
+
+
+
+        {/* START - This down here it was commented yet */}
         {/* 
         <Route
           exact
@@ -165,6 +169,10 @@ function Root() {
           path={`${process.env.PUBLIC_URL}/service-details`}
           component={ServiceDetailsPage}
         /> */}
+        {/* END - This down here it was commented yet */}
+
+
+
       </Layout>
     </Switch>
   </BrowserRouter>
