@@ -19,14 +19,14 @@ function HomePageOne() {
             <AnimateLine/>
             <HeroArea/>
             <ServiceArea/>
-            <AboutArea image="/img/logo-dark.svg"/>
-            <FeaturesArea/>
-              <ProjectWrap/>
+            {/* <AboutArea image="/img/logo-dark.svg"/> */}
+            {/* <FeaturesArea/> */}
+            {/* <ProjectWrap/> */}
             <PartnarArea/>
-            <PriceCardWrap/>
-            <Testimonial/>
+            {/* <PriceCardWrap/> */}
+            {/* <Testimonial/> */}
             <TeamWrap/>
-            <LatesPost/>
+            {/* <LatesPost/> */}
             <SubscribArea/>
         </div>
     </>
