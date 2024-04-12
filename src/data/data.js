@@ -1,12 +1,14 @@
 
-const name = "Bridge-Tech Solutions"
-const cta_1 = "Contattaci"
-const cta_2 = "Servizi"
+const name = "NetX"
+const surname = "Data"
+const cta1 = "Contattaci"
+const cta2 = "Servizi"
 export const emanuele_wa = "+393791595630"
 const antonio_wa = "+393791595630"
 
 export const identity = {
     "name": name,
+    "surname": surname,
     "category": "Soluzioni Software su Misura",
     "description_full": name + " si distingue come uno dei leader nello sviluppo di soluzioni software su misura. Attraverso un percorso che va dalla progettazione all'implementazione di sistemi complessi, ci rivolgiamo a una vasta gamma di clienti, guidati sempre da un principio fondamentale: la personalizzazione. La nostra passione per l'innovazione tecnologica ci permette di offrire soluzioni eccellenti, pensate ad hoc per soddisfare ogni specifica necessità di sviluppo software. Il nostro vero punto di forza, però, risiede nella capacità di comprendere a fondo le esigenze delle startup. Grazie a relazioni consolidate nel settore e alla nostra esperienza diretta, siamo in grado di identificare e affrontare efficacemente le sfide tecnologiche uniche di ogni realtà emergente. Il nostro obiettivo è fornire un supporto concreto e su misura, per trasformare ogni idea innovativa in realtà tangibile.",
     "description_short": name + ", leader in soluzioni software personalizzate, trasforma idee in realtà con innovazione e personalizzazione. Specializzati in sistemi complessi per vari clienti, comprendiamo profondamente le sfide delle startup, offrendo soluzioni tecnologiche su misura per ogni esigenza.",
@@ -39,15 +41,15 @@ export const copy = {
     "header": {
         "title": "",
         "subtitle_short": "",
-        "cta1": cta_1
+        "cta1": cta1
     },
     "banner": {
-        "cta_1": cta_1,
-        "cta_2": cta_2,
+        "cta1": cta1,
+        "cta2": cta2,
     },
     "servizi": {
         "title": "Le Nostre Soluzioni",
-        "subtitle": cta_2,
+        "subtitle": cta2,
     },
     "tecnologie": {
         "title": "Multi Ambiente",
@@ -71,7 +73,7 @@ export const copy = {
         "subtitle": "Il Team di" + identity.name,
     },
     "footersubscribe": {
-        "title": cta_1,
+        "title": cta1,
         "subtitle": "Iscriviti ora",
         "subsubtitle": "Newsletter",
         "body": "Inserisci la tua Email",
