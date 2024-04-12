@@ -1,6 +1,7 @@
 import React from "react";
 
 function SingleTeamCard(props) {
+  const socials = Object.values(props.social);
   return (
     <>
       <div className="single-team">
@@ -21,7 +22,23 @@ function SingleTeamCard(props) {
             />
           </svg>
           <ul className="team-social">
-            <li>
+
+            {
+              socials.map((item, index) => {
+                return (
+                  item.url.length ?
+                    <li>
+                      <a href={item.url} target="_blank">
+                        <i className={item.icon} />
+                      </a>
+                    </li>
+                  :
+                    <></>
+                );
+              })
+            }
+
+            {/* <li>
               <a href="https://www.instagram.com/">
                 <i className="fab fa-instagram" />
               </a>
@@ -40,7 +57,8 @@ function SingleTeamCard(props) {
               <a href="https://www.whatsapp.com/">
                 <i className="fab fa-whatsapp" />
               </a>
-            </li>
+            </li> */}
+
           </ul>
         </div>
         <div className="team-inner">

@@ -9,18 +9,22 @@ import SwiperCore, {
   Navigation,
   Pagination,
 } from "swiper";
+import { copy, identity } from "../../../data/data";
+
 SwiperCore.use([Navigation, Pagination, EffectFade, Autoplay]);
 function TeamWrap(props) {
     const teamSlider = {
       autoplay:{
-        delay: 2500,
+        delay: 2500000,
+        // delay: 2500,
         disableOnInteraction: false,
       },
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 2,
+        // slidesPerView: 3,
         spaceBetween: 30,
         pagination: {
-            el: ".swiper-pagination",
+            // el: ".swiper-pagination",
             clickable: true,
         },
         breakpoints: {
@@ -35,6 +39,17 @@ function TeamWrap(props) {
             }
         }
     }
+    
+  const teamMembersFromCopy = Object.values(copy.team);
+  const teamMembers = teamMembersFromCopy.map(member => {
+    return {
+      name: member.name,
+      title: member.title,
+      image: member.image,
+      social: member.social
+    };
+  });
+
   return (
     <>
       <section className="our-team sec-mar">
@@ -45,18 +60,36 @@ function TeamWrap(props) {
             data-wow-duration="1500ms"
           >
             <div className={`${"sec-title"} ${props.white}`}>
-              <span>Our Team</span>
-              <h2>Meet Our Team</h2>
+              <span>{copy.chisiamo.title}</span>
+              <h2>Il Team di {identity.name}</h2>
               <p>
-                Curabitur sed facilisis erat. Vestibulum pharetra eros eget
-                fringilla porttitor. on Duis a orci nunc. Suspendisse ac
-                convallis sapien, quis commodo libero.
+                {identity.team}
               </p>
             </div>
           </div>
           <Swiper {...teamSlider} className="swiper team-slider">
             <div className="swiper-wrapper">
-              <SwiperSlide
+              
+              {
+                teamMembers.map(member => {
+                  return(
+                    <SwiperSlide
+                      className="swiper-slide wow animate fadeInUp"
+                      // data-wow-delay="200ms"
+                      // data-wow-duration="1500ms"
+                    >
+                      <SingleTeamCard
+                        image={member.image}
+                        name={member.name}
+                        title={member.title}
+                        social={member.social}
+                      />
+                    </SwiperSlide>
+                  )
+                })
+              }
+
+              {/* <SwiperSlide
                 className="swiper-slide wow animate fadeInUp"
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
@@ -88,9 +121,10 @@ function TeamWrap(props) {
                   name="Adrian Eodri"
                   title="UI/UX Designer"
                 />
-              </SwiperSlide>
+              </SwiperSlide> */}
             </div>
-            <div className="swiper-pagination" />
+            {/* This down here are clickable dots for scroll (paginations) between SwiperSlide. Take a look at 'el: ".swiper-pagination",' in 'teamSlider' const at the top of the page */}
+            {/* <div className="swiper-pagination" /> */}
           </Swiper>
         </div>
       </section>
