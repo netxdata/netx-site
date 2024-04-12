@@ -26,19 +26,19 @@ function HeroArea() {
             <div className="row">
               <div className="col-lg-6">
                 <div className="hero-content">
-                  <h1>{name}<span>{surname}</span></h1>
+                  <h1>{identity.name}<span>{identity.surname}</span></h1>
                   <p>{identity.description_short}</p>
                   <div className="buttons">
                     <div className="cmn-btn">
                       <div className="line-1" />
                       <div className="line-2" />
-                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>{copy.banner.call_to_action}</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/contact`} onClick={scrollTop}>{copy.banner.cta1}</Link>
                     </div>
-                    <div className="cmn-btn layout-two">
+                    {/* <div className="cmn-btn layout-two">
                       <div className="line-1" />
                       <div className="line-2" />
-                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>{copy.banner.cta_2}</Link>
-                    </div>
+                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>{copy.banner.cta2}</Link>
+                    </div> */}
                   </div>
                 </div>
               </div>

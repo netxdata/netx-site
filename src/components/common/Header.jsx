@@ -191,12 +191,12 @@ function Header() {
                 </ul> */}
               </li>
               <li>
-                <NavLink
+                {/* <NavLink
                   to={`${process.env.PUBLIC_URL}/contact`}
                   onClick={scrollTop}
                 >
-                  {copy.banner.cta_1}
-                </NavLink>
+                  {copy.banner.cta1}
+                </NavLink> */}
               </li>
               {/* <li>
                 <Link to={"#"} onClick={() => dispatch({ type: "project" })}>
