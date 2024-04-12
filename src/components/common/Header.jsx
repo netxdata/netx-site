@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import WOW from "wowjs";
-import { copy } from "../../data/copy";
+import { copy } from "../../data/data";
 
 function Header() {
   const [sidebar, setSidebar] = useState(false);
@@ -103,16 +103,20 @@ function Header() {
                 className="has-child active"
                 onClick={() => dispatch({ type: "homeOne" })}
               >
-                <Link 
+
+                {/* START - Home link */}
+                {/* <Link 
                   to={`${process.env.PUBLIC_URL}/`}
                   onClick={scrollTop}
-                >
+                > */}
                 {/* <Link
                   to={"#"}
                   className={state.activeMenu === "homeOne" ? "active" : ""}
                 > */}
-                  Home
-                </Link>
+                  {/* Home
+                </Link> */}
+                {/* END - Home link */}
+
                 {/* <i className="bi bi-chevron-down" />
                 <ul
                   className={
@@ -140,22 +144,26 @@ function Header() {
                   </li>
                 </ul> */}
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to={`${process.env.PUBLIC_URL}/about`}
                   onClick={scrollTop}
                 >
                   About Us
                 </NavLink>
-              </li>
+              </li> */}
               <li>
-                <Link 
+                
+                {/* START - Home link */}
+                {/* <Link 
                   to={`${process.env.PUBLIC_URL}/service`}
                   onClick={scrollTop}
-                >
+                > */}
                 {/* <Link to={"#"} onClick={() => dispatch({ type: "service" })}> */}
-                  Service
-                </Link>
+                  {/* Servizi
+                </Link> */}
+                {/* END - Home link */}
+
                 {/* <i className="bi bi-chevron-down" />
                 <ul
                   className={
@@ -187,7 +195,7 @@ function Header() {
                   to={`${process.env.PUBLIC_URL}/contact`}
                   onClick={scrollTop}
                 >
-                  Contact Us
+                  {copy.banner.cta_1}
                 </NavLink>
               </li>
               {/* <li>
@@ -319,7 +327,7 @@ function Header() {
 
         </div>
         
-        <div className="nav-right">
+        {/* <div className="nav-right">
           <div className="get-qoute">
             <div className="cmn-btn">
               <div className="line-1" />
@@ -328,7 +336,7 @@ function Header() {
                 to={`${process.env.PUBLIC_URL}/contact`}
                 onClick={scrollTop}
               >
-                {copy.utils.call_to_action}
+                {copy.header.cta1}
               </Link>
             </div>
           </div>
@@ -339,7 +347,7 @@ function Header() {
               <span className="cross-bottom" />
             </Link>
           </div>
-        </div>
+        </div> */}
       </header>
     </>
   );

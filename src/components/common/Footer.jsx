@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { identity } from "../../data/data";
+import { emanuele_wa } from "../../data/data";
 
 function Footer(props) {
   const scrollTop=()=>window.scrollTo({top:0,behavior:"smooth"})
@@ -17,10 +19,12 @@ function Footer(props) {
                     </Link>
                   </div>
                   <p>
-                    Integer purus odio, placerat nec ande rhoncus in,
-                    ullamcorper nec dolor. on aptent taciti sociosqu.
+                    {identity.name}.
                   </p>
-                  <ul className="social-media-icons">
+                  <p>
+                    {identity.slogan}
+                  </p>
+                  {/* <ul className="social-media-icons">
                     <li>
                       <a href="https://www.facebook.com/">
                         <i className="fab fa-facebook-f" />
@@ -41,11 +45,11 @@ function Footer(props) {
                         <i className="fab fa-instagram" />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
-                <div className="footer-widget">
+                {/* <div className="footer-widget">
                   <h4>Our Services</h4>
                   <ul className="footer-menu">
                     <li>
@@ -67,10 +71,10 @@ function Footer(props) {
                       <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Development</Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
-                <div className="footer-widget">
+                {/* <div className="footer-widget">
                   <h4>Quick Links</h4>
                   <ul className="footer-menu">
                     <li>
@@ -92,7 +96,7 @@ function Footer(props) {
                       <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>Pricing Plan</Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
@@ -102,8 +106,15 @@ function Footer(props) {
                       <i className="fas fa-phone-alt" />
                     </div>
                     <div className="phone">
-                      <a href="tel:05661111985">+880 566 1111 985</a>
-                      <a href="tel:06571111576">+880 657 1111 576</a>
+                      <a href={`tel:${identity.phone1}`}>{identity.phone1}</a>
+                    </div>
+                  </div>
+                  <div className="number">
+                    <div className="num-icon">
+                      <i className="fab fa-whatsapp" />
+                    </div>
+                    <div className="phone">
+                      <a href={`https://wa.me/${identity.phone1}`} target="_blank">{identity.phone1}</a>
                     </div>
                   </div>
                   <div className="office-mail">
@@ -111,16 +122,15 @@ function Footer(props) {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="email">
-                      <a href="tell:info@example.com">info@example.com</a>
-                      <a href="tell:info@support.com">info@support.com</a>
+                      <a href={`mailto:${identity.mail1}`}>{identity.mail1}</a>
                     </div>
                   </div>
-                  <div className="address">
+                  {/* <div className="address">
                     <div className="address-icon">
                       <i className="fas fa-map-marker-alt" />
                     </div>
                     <p>168/170, Avenue 01, Mirpur DOHS, Bangladesh</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
