@@ -6,6 +6,7 @@ import SwiperCore, {
   Autoplay,
   Navigation,
 } from "swiper";
+import { copy } from '../../../data/data';
 SwiperCore.use([Navigation, Autoplay]);
 function PartnarArea() {
     const partnarSlider={
@@ -43,8 +44,10 @@ function PartnarArea() {
           <div className="row align-items-center">
             <div className="col-lg-3">
               <div className="sec-title white layout2">
-                <span>Satisfied Client</span>
-                <h2>Our Partner</h2>
+                <span>{copy.tecnologie.title}</span>
+                <h2>{copy.tecnologie.subtitle}</h2>
+                {/* <span>Satisfied Client</span>
+                <h2>Our Partner</h2> */}
                 <div className="-partnerslider-navigator">
                   <div className="swiper-button-prev-c"><i className="bi bi-chevron-left" /></div>
                   <div className="swiper-button-next-c"><i className="bi bi-chevron-right" /></div>
@@ -56,27 +59,37 @@ function PartnarArea() {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-1.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/azure_func.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-2.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/blob.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-3.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/docker.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-4.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/java.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-5.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/postgreSQL.png"} alt="partnar-img" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="single-partner">
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/react.png"} alt="partnar-img" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="single-partner">
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/s3.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                 </div>
