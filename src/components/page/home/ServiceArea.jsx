@@ -7,6 +7,8 @@ import SwiperCore, {
   Autoplay,
   Navigation,
 } from "swiper";
+import { copy, identity } from "../../../data/data";
+
 SwiperCore.use([Navigation, Autoplay]);
 
 function ServiceArea(props) {
@@ -37,6 +39,9 @@ function ServiceArea(props) {
         }
     }
   }
+
+  const teamServices = copy.services
+
   return (
     <>
       <section className={`${"services-area sec-mar"} ${props.layoutClass}`}>
@@ -47,18 +52,53 @@ function ServiceArea(props) {
             data-wow-duration="1500ms"
           >
             <div className={`${"sec-title"} ${props.white}`}>
-              <span>Our Solutions</span>
-              <h2>Services</h2>
+              <span>{copy.servizi.title}</span>
+              <h2>{copy.servizi.subtitle}</h2>
               <p>
-                Curabitur sed facilisis erat. Vestibulum pharetra eros eget
-                fringilla porttitor. on Duis a orci nunc. Suspendisse ac
-                convallis sapien, quis commodo libero.
+                {identity.copyServices}
               </p>
             </div>
           </div>
           <Swiper {...serviceSlider} className="swiper services-slider">
             <div className="swiper-wrapper">
-              <SwiperSlide
+
+              {
+                teamServices.map(service => {
+                  return(
+                    <SwiperSlide
+                      className="swiper-slide wow animate fadeInUp"
+                      // data-wow-delay="200ms"
+                      // data-wow-duration="1500ms"
+                    >
+                    <div className={`${"single-service"} ${props.layoutClass}`}>
+                      <span>{service.number}</span>
+                      <div className="icon">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL + service.img
+                          }
+                          alt="service-icon"
+                        />
+                      </div>
+                      <h4>{service.title}</h4>
+                      <p>
+                        {service.description}
+                      </p>
+                      {/* <div className="read-btn">
+                        <Link
+                          to={`${process.env.PUBLIC_URL}/service-details`}
+                          onClick={scrollTop}
+                        >
+                          Read More
+                        </Link>
+                      </div> */}
+                    </div>
+                    </SwiperSlide>
+                  )
+                })
+              }
+
+              {/* <SwiperSlide
                 className="swiper-slide wow animate fadeInUp"
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
@@ -147,7 +187,8 @@ function ServiceArea(props) {
                     </Link>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
+
             </div>
           </Swiper>
           <div className="swiper-button-next" />
