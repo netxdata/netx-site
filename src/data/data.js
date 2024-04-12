@@ -39,12 +39,11 @@ export const copy = {
     "header": {
         "title": "",
         "subtitle_short": "",
-        "call_to_action": cta_1
+        "cta1": cta_1
     },
     "banner": {
         "cta_1": cta_1,
         "cta_2": cta_2,
-        "call_to_action": cta_1,
     },
     "servizi": {
         "title": "Le Nostre Soluzioni",
@@ -57,7 +56,7 @@ export const copy = {
     "footer": {
         "title": "",
         "subtitle": "",
-        "call_to_action": ""
+        "cta1": ""
     },
     "contact": {
         "phone1": "3456789876",
