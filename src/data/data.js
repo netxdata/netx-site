@@ -1,10 +1,12 @@
 
 const name = "NetX"
 const surname = "Data"
+const mail = "info@netxdata.it"
 const cta1 = "Contattaci"
 const cta2 = "Servizi"
+
 export const emanuele_wa = "+393791595630"
-const antonio_wa = "+393791595630"
+const antonio_wa = "+3895380740"
 
 export const identity = {
     "name": name,
@@ -15,7 +17,8 @@ export const identity = {
     "slogan": "Il ponte tra tecnologia e innovazione.",
     "team": "Siamo un team affiatato alla " + name + ", con radici ben piantate nel mondo delle startup e una passione sfrenata per la tecnologia. Siamo più di colleghi: siamo amici, uniti da legami forti nel settore, pronti a fare quel miglio in più per far decollare le vostre idee. Per noi, ogni sfida tecnologica è un'avventura, e ogni startup con cui collaboriamo diventa parte della famiglia.",
     "phone1": emanuele_wa,
-    "mail1": "laparteweb@gmail.com",
+    "address": "Viale Vincenzo Lancetti, 43, 20158 Milano MI",
+    "mail1": mail,
     "services": [
         "Consulenza Tecnica per Startup",
         "Integrazione di Sistemi e Automazione dei Processi",
@@ -34,13 +37,7 @@ export const identity = {
 }
 
 export const copy = {
-    "official_Startupper_URL": "https://dominio.com",
-    "official_Startupper_title": "NomeAgenzia",
-    "official_Startupper_description": "Break official benefit entire. Person I morning have do. Place family child inside admit production. Rather movement like cell later. Bring six daughter get far full. Easy book Mr happy sit. Accept tree then old. Test natural deal window these pressure. Like describe write someone. Give thought set American.",
-    "official_Startupper_slogan": "Lorem ipsum super tiger mama bruta",
     "header": {
-        "title": "",
-        "subtitle_short": "",
         "cta1": cta1
     },
     "banner": {
@@ -55,18 +52,29 @@ export const copy = {
         "title": "Multi Ambiente",
         "subtitle": "Le Nostre Tecnologie",
     },
-    "footer": {
-        "title": "",
-        "subtitle": "",
-        "cta1": ""
-    },
     "contact": {
-        "phone1": "3456789876",
-        "phone2": "",
-        "wa1": "3456789876",
-        "wa2": "",
-        "mail1": "ifo@nomeagenzia.com",
-        "mail2": "Iscriviti",
+        "phone1": emanuele_wa,
+        "wa1": emanuele_wa,
+        "mail1": identity.mail1,
+        "cta1": cta1,
+        "copy1": "Ti rispondiamo entro 24 ore",
+        "copy2": "Indirizzo",
+        "copy3": "Telefono",
+        "copy4": "Email",
+        "copy5": "Hai qualche domanda?",
+        "map": "https://maps.google.com/maps?q=45.495041,9.176060&t=&z=14&ie=UTF8&iwloc=&output=embed",
+        "form": {
+            "copy1": "Inserisci il tuo nome",
+            "copy2": "Inserisci la tua email",
+            "copy3": "Inserisci il tuo numero di telefono",
+            "copy4": "Seleziona in che modo desideri essere contattato da NetX:",
+            "copy5": "Email",
+            "copy6": "Telefono",
+            "copy7": "Puoi annullare l'iscrizione in qualsiasi momento facendo clic sul collegamento nel footer delle nostre e-mail. Per informazioni sulle nostre pratiche sulla privacy, visita il nostro sito web.",
+            "copy8": "Utilizziamo Mailchimp come piattaforma di marketing. Cliccando qui sotto per iscriverti, accetti che le tue informazioni verranno trasferite a Mailchimp per l'elaborazione.",
+            "copy9": "Scopri di più ",
+            "copy10": "sulle pratiche della privacy di Mailchimp.",
+        },
     },
     "chisiamo": {
         "title": "Chi Siamo",
@@ -220,48 +228,6 @@ const data = [
         category: "3D Design",
         details:"Low Poly Base Mesh",
     },
-    // {
-    //     id:7,
-    //     title:"3D Design",
-    //     image:"img/project/project-5.jpg",
-    //     category: "Graphic",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:8,
-    //     title:"3D Design",
-    //     image:"img/project/project-1.jpg",
-    //     category: "Graphic",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:9,
-    //     title:"UI Kit",
-    //     image:"img/project/project-2.jpg",
-    //     category: "UI",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:10,
-    //     title:"UI Kit",
-    //     image:"img/project/project-4.jpg",
-    //     category: "UI",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:11,
-    //     title:"App",
-    //     image:"img/project/project-3.jpg",
-    //     category: "App",
-    //     details:"Mobile Crypto Wallet",
-    // },
-    // {
-    //     id:12,
-    //     title:"App",
-    //     image:"img/project/project-1.jpg",
-    //     category: "App",
-    //     details:"Mobile Crypto Wallet",
-    // },
 ];
 
 export default data;

@@ -105,16 +105,16 @@ function Header() {
               >
 
                 {/* START - Home link */}
-                {/* <Link 
+                <Link 
                   to={`${process.env.PUBLIC_URL}/`}
                   onClick={scrollTop}
-                > */}
+                >
                 {/* <Link
                   to={"#"}
                   className={state.activeMenu === "homeOne" ? "active" : ""}
                 > */}
-                  {/* Home
-                </Link> */}
+                  Home
+                </Link>
                 {/* END - Home link */}
 
                 {/* <i className="bi bi-chevron-down" />
@@ -191,12 +191,12 @@ function Header() {
                 </ul> */}
               </li>
               <li>
-                {/* <NavLink
+                <NavLink
                   to={`${process.env.PUBLIC_URL}/contact`}
                   onClick={scrollTop}
                 >
                   {copy.banner.cta1}
-                </NavLink> */}
+                </NavLink>
               </li>
               {/* <li>
                 <Link to={"#"} onClick={() => dispatch({ type: "project" })}>

@@ -5,6 +5,28 @@
 .single-partner {
     filter: grayscale(1);
 }
-// .header-area {
-//     padding: 40px 100px;
-// }
+
+/*-----------------------------------------------------------------------------------
+    Mailchimp
+-----------------------------------------------------------------------------------*/
+
+#mc-embedded-subscribe-form {
+    #mc-embedded-subscribe {
+        margin-top: 30px;
+    }
+    #gdpr_188, #gdpr_189 {
+        width: unset !important;
+    }
+    .mc-checkbox {
+        display: flex;
+        gap: 5px;
+        margin-right: 30px;
+        align-items: center;
+        input {
+            margin-bottom: unset !important;
+        }
+    }
+    .content__gdpr, .content__gdprLegal {
+        font-size: 13px;
+    }
+}

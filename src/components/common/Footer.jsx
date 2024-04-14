@@ -100,23 +100,23 @@ function Footer(props) {
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
-                  <h4>Contacts</h4>
-                  <div className="number">
+                  <h4>Contatti</h4>
+                  {/* <div className="number">
                     <div className="num-icon">
                       <i className="fas fa-phone-alt" />
                     </div>
                     <div className="phone">
                       <a href={`tel:${identity.phone1}`}>{identity.phone1}</a>
                     </div>
-                  </div>
-                  <div className="number">
+                  </div> */}
+                  {/* <div className="number">
                     <div className="num-icon">
                       <i className="fab fa-whatsapp" />
                     </div>
                     <div className="phone">
                       <a href={`https://wa.me/${identity.phone1}`} target="_blank">{identity.phone1}</a>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="office-mail">
                     <div className="mail-icon">
                       <i className="far fa-envelope" />
@@ -125,12 +125,12 @@ function Footer(props) {
                       <a href={`mailto:${identity.mail1}`}>{identity.mail1}</a>
                     </div>
                   </div>
-                  {/* <div className="address">
+                  <div className="address">
                     <div className="address-icon">
                       <i className="fas fa-map-marker-alt" />
                     </div>
-                    <p>168/170, Avenue 01, Mirpur DOHS, Bangladesh</p>
-                  </div> */}
+                    <p>{identity.address}</p>
+                  </div>
                 </div>
               </div>
             </div>
