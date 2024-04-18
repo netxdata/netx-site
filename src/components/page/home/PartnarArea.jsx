@@ -92,6 +92,16 @@ function PartnarArea() {
                       <img src={process.env.PUBLIC_URL + "/img/tecnologies/s3.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="single-partner">
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/kubernetes.png"} alt="partnar-img" />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="single-partner">
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/lambda.png"} alt="partnar-img" />
+                    </div>
+                  </SwiperSlide>
                 </div>
               </Swiper>
             </div>
