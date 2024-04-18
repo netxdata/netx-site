@@ -15,7 +15,7 @@ function Footer(props) {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link scrollTo={scrollTop} to={"/"}>
-                      <img src={process.env.PUBLIC_URL +"/img/logo.svg"} alt="FooterImg" />
+                      <img src={process.env.PUBLIC_URL +"/img/netx-logo.png"} alt="FooterImg" />
                     </Link>
                   </div>
                   <p>
@@ -136,7 +136,7 @@ function Footer(props) {
             </div>
           </div>
           <div className="footer-bottom">
-            <div className="row align-items-center">
+            {/* <div className="row align-items-center">
               <div className="col-12 col-md-4 col-lg-4 col-xl-5">
                 <div className="copy-txt">
                   <span>
@@ -155,7 +155,7 @@ function Footer(props) {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

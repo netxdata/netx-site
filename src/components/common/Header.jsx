@@ -70,7 +70,7 @@ function Header() {
           <div className="logo">
             <Link to={"/"} onClick={scrollTop}>
               <img
-                src={process.env.PUBLIC_URL + "/img/logo.svg"}
+                src={process.env.PUBLIC_URL + "/img/netX-logo.png"}
                 alt="logo-img"
               />
             </Link>
