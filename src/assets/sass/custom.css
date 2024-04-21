@@ -23,8 +23,11 @@
 #mc-embedded-subscribe-form .mc-checkbox input {
   margin-bottom: unset !important;
 }
-#mc-embedded-subscribe-form .content__gdpr, #mc-embedded-subscribe-form .content__gdprLegal {
+#mc-embedded-subscribe-form .content__gdpr, #mc-embedded-subscribe-form .content__gdprLegal, #mc-embedded-subscribe-form .content__gdprRequired {
   font-size: 13px;
+}
+#mc-embedded-subscribe-form .content__gdprRequired {
+  margin-bottom: 13px;
 }
 
 /*# sourceMappingURL=custom.css.map */

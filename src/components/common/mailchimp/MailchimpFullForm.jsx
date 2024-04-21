@@ -11,7 +11,8 @@ function MailchimpFullForm() {
       className="validate"
       target="_self"
       noValidate
-    >
+    > 
+      <p className="content__gdprRequired">{copy.contact.form.copyRequired}</p>
       <div id="mc_embed_signup_scroll">
         {/* <h2>Iscriviti</h2> */}
         {/* <div className="indicates-required">

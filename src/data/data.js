@@ -74,6 +74,7 @@ export const copy = {
             "copy8": "Utilizziamo Mailchimp come piattaforma di marketing. Cliccando qui sotto per iscriverti, accetti che le tue informazioni verranno trasferite a Mailchimp per l'elaborazione.",
             "copy9": "Scopri di più ",
             "copy10": "sulle pratiche della privacy di Mailchimp.",
+            "copyRequired": "I campi 'email', 'telefono' e 'preferenze contatto' sono obbligatori.",
         },
     },
     "chisiamo": {

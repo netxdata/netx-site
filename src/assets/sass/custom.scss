@@ -26,7 +26,10 @@
             margin-bottom: unset !important;
         }
     }
-    .content__gdpr, .content__gdprLegal {
+    .content__gdpr, .content__gdprLegal, .content__gdprRequired {
         font-size: 13px;
+    }
+    .content__gdprRequired {
+        margin-bottom: 13px;
     }
 }
