@@ -15,7 +15,7 @@ function Footer(props) {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link scrollTo={scrollTop} to={"/"}>
-                      <img src={process.env.PUBLIC_URL +"/img/netx-logo.png"} alt="FooterImg" />
+                      <img src={process.env.PUBLIC_URL +"/img/netX-logo.png"} alt="FooterImg" />
                     </Link>
                   </div>
                   <p>
