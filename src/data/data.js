@@ -15,7 +15,7 @@ export const identity = {
     "description_full": name + " si distingue nello sviluppo di soluzioni software su misura. Attraverso un percorso che va dalla progettazione all'implementazione di sistemi complessi, ci rivolgiamo a una vasta gamma di clienti, guidati sempre da un principio fondamentale: la personalizzazione. La nostra passione per l'innovazione tecnologica ci permette di offrire soluzioni eccellenti, pensate ad hoc per soddisfare ogni specifica necessità di sviluppo software. Il nostro vero punto di forza, però, risiede nella capacità di comprendere a fondo le esigenze delle startup. Grazie a relazioni consolidate nel settore e alla nostra esperienza diretta, siamo in grado di identificare e affrontare efficacemente le sfide tecnologiche uniche di ogni realtà emergente. Il nostro obiettivo è fornire un supporto concreto e su misura, per trasformare ogni idea innovativa in realtà tangibile.",
     "description_short": name + ", trasforma idee in realtà con innovazione e personalizzazione. Specializzati in sistemi complessi per vari clienti, comprendiamo profondamente le sfide delle startup, offrendo soluzioni tecnologiche su misura per ogni esigenza.",
     "slogan": "Il ponte tra tecnologia e innovazione.",
-    "team": "Siamo un team affiatato alla " + name + ", con radici ben piantate nel mondo delle startup e una passione sfrenata per la tecnologia. Siamo più di colleghi: siamo amici, uniti da legami forti nel settore, pronti a fare quel miglio in più per far decollare le vostre idee. Per noi, ogni sfida tecnologica è un'avventura, e ogni startup con cui collaboriamo diventa parte della famiglia.",
+    "team": name + " è un team affiatato, con radici ben piantate nel mondo delle startup e una passione sfrenata per la tecnologia. Uniti da legami forti nel settore, pronti a fare quel miglio in più per far decollare le vostre idee. Per noi, ogni sfida tecnologica è un'avventura, e ogni startup con cui collaboriamo diventa parte della famiglia.",
     "phone1": emanuele_wa,
     "address": "Viale Vincenzo Lancetti, 43, 20158 Milano MI",
     "mail1": mail,
@@ -30,8 +30,8 @@ export const identity = {
         "Ti guidiamo nel mondo tech, aiutandoti a scegliere le soluzioni più smart per crescere rapidamente.",
         "Semplifichiamo i tuoi processi, facendo parlare tra loro le diverse tecnologie per farti risparmiare tempo e risorse.",
         "Costruiamo il cuore tecnologico del tuo progetto, realizzando software che non solo funziona ma ispira.",
-        "Ci prendiamo cura dei tuoi dati come fossero i nostri, blindando la tua attività contro le minacce digitali.",
-        "Mettiamo a punto le tue tecnologie esistenti, perché ogni secondo in meno che aspetti è un valore aggiunto per te."
+        "Ci prendiamo cura dei tuoi dati come fossero i nostri, proteggendo la tua attività dalle minacce digitali.",
+        "Perfezioniamo le tue attuali tecnologie per ottimizzare il tuo tempo e renderti la vita più semplice. Ogni istante risparmiato è un valore aggiunto per te."
     ],      
     "copyServices": "In " + name + ", accompagniamo le startup nel selezionare le migliori tecnologie e offriamo soluzioni avanzate per integrare e automatizzare i processi. Mettiamo la sicurezza al primo posto, con analisi approfondite per proteggere i tuoi dati e garantire che i sistemi siano sempre agili e performanti."      
 }
@@ -123,7 +123,7 @@ export const copy = {
         "emanuele": {
             "image": "/img/team/team-3.jpg",
             "name": "Emanuele Mancari",
-            "title": "Software Engeenier",
+            "title": "Software Engineer",
             "social": {
                 "linkedin": {
                   "url": "https://www.linkedin.com/in/emanuele-mancari-b4b10171/",
