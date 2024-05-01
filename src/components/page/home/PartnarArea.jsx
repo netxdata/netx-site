@@ -59,47 +59,47 @@ function PartnarArea() {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/azure_func.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/azure_func.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/blob.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/blob.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/docker.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/docker.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/java.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/java.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/postgreSQL.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/postgreSQL.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/react.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/react.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/s3.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/s3.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/kubernetes.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/kubernetes.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/lambda.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/tecnologies/lambda.png"} alt="netx" />
                     </div>
                   </SwiperSlide>
                 </div>
