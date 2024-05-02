@@ -8,7 +8,7 @@ function About() {
     <>
       <Breadcrumb pageName="About Us" pageTitle="About Us" />
       <AboutWrap />
-      <SubscribArea />
+      {/* <SubscribArea /> */}
     </>
   );
 }

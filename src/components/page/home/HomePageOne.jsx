@@ -27,7 +27,7 @@ function HomePageOne() {
             {/* <Testimonial/> */}
             <TeamWrap/>
             {/* <LatesPost/> */}
-            <SubscribArea/>
+            {/* <SubscribArea/> */}
         </div>
     </>
   )
