@@ -14,12 +14,12 @@ function AboutWrap() {
       <div className="creasoft-wrap">
         <AnimateLine />
         <WhyChooseUs />
-        <AboutArea image="/img/logo-dark.svg"/>
-        <FeaturesArea/>
+        {/* <AboutArea image="/img/logo-dark.svg"/> */}
+        {/* <FeaturesArea/> */}
         <HistoryArea/>
-        <Testimonial/>
-        <TeamWrap/>
-        <LatesPost/>
+        {/* <Testimonial/> */}
+        {/* <TeamWrap/> */}
+        {/* <LatesPost/> */}
       </div>
     </>
   );

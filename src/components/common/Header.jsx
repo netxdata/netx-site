@@ -144,17 +144,17 @@ function Header() {
                   </li>
                 </ul> */}
               </li>
-              {/* <li>
+              <li>
                 <NavLink
                   to={`${process.env.PUBLIC_URL}/about`}
                   onClick={scrollTop}
                 >
                   About Us
                 </NavLink>
-              </li> */}
-              <li>
+              </li>
+              {/* <li>
                 
-                {/* START - Home link */}
+                START - Home link */}
                 {/* <Link 
                   to={`${process.env.PUBLIC_URL}/service`}
                   onClick={scrollTop}
@@ -188,8 +188,8 @@ function Header() {
                       Service Details
                     </NavLink>
                   </li>
-                </ul> */}
-              </li>
+                </ul> 
+              </li>*/}
               <li>
                 <NavLink
                   to={`${process.env.PUBLIC_URL}/contact`}

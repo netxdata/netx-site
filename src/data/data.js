@@ -36,6 +36,11 @@ export const identity = {
     "copyServices": "In " + name + ", accompagniamo le startup nel selezionare le migliori tecnologie e offriamo soluzioni avanzate per integrare e automatizzare i processi. Mettiamo la sicurezza al primo posto, con analisi approfondite per proteggere i tuoi dati e garantire che i sistemi siano sempre agili e performanti."      
 }
 
+export const team = {
+    "cto": "Antonio Stoico",
+    "pm": "Emanuele Mancari",
+}
+
 export const copy = {
     "header": {
         "cta1": cta1
@@ -65,16 +70,8 @@ export const copy = {
         "map": "https://maps.google.com/maps?q=45.495041,9.176060&t=&z=14&ie=UTF8&iwloc=&output=embed",
         "form": {
             "copy1": "Inserisci il tuo nome",
-            "copy2": "Inserisci la tua email",
-            "copy3": "Inserisci il tuo numero di telefono",
-            "copy4": "Seleziona in che modo desideri essere contattato da NetX:",
-            "copy5": "Email",
-            "copy6": "Telefono",
-            "copy7": "Puoi annullare l'iscrizione in qualsiasi momento facendo clic sul collegamento nel footer delle nostre e-mail. Per informazioni sulle nostre pratiche sulla privacy, visita il nostro sito web.",
-            "copy8": "Utilizziamo Mailchimp come piattaforma di marketing. Cliccando qui sotto per iscriverti, accetti che le tue informazioni verranno trasferite a Mailchimp per l'elaborazione.",
-            "copy9": "Scopri di più ",
-            "copy10": "sulle pratiche della privacy di Mailchimp.",
-            "copyRequired": "I campi 'email', 'telefono' e 'preferenze contatto' sono obbligatori.",
+            "copy2": "Inserisci la tua email ( obbligatoria )",
+            "copy3": "Inserisci la tua richiesta",
         },
     },
     "chisiamo": {
@@ -91,7 +88,7 @@ export const copy = {
     "team": {
         "antonio": {
             "image": "/img/team/team-1.jpg",
-            "name": "Antonio Stoico",
+            "name": team.cto,
             "title": "CTO",
             "social": {
                 "linkedin": {
@@ -122,8 +119,8 @@ export const copy = {
         },
         "emanuele": {
             "image": "/img/team/team-3.jpg",
-            "name": "Emanuele Mancari",
-            "title": "Software Engineer",
+            "name": team.pm,
+            "title": "Product Manager",
             "social": {
                 "linkedin": {
                   "url": "https://www.linkedin.com/in/emanuele-mancari-b4b10171/",
@@ -180,10 +177,35 @@ export const copy = {
         {
             "number": "05",
             "img": "/img/icons/service-icon-5.png",
-            "title": identity.services[4],
-            "description": identity.servicesDescription[4],
+            "title": "We Are Open Our Office",
+            "description": "purus odio, placerat nec rhoncus in, ullamcorper nec aptent taciti sociosqu ad litora torquent per conubia nostra, himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa vitae enim velit. Ut ut posuere orci, id dapibus odio. himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa",
         },
     ],
+    "aboutuscomponent": [
+        {
+            "img": "/img/timeline-1.jpg",
+            "subtitle": "CTO",
+            "title": team.cto,
+            "description": team.cto + ", Integer purus odio, placerat nec rhoncus in, ullamcorper nec aptent taciti sociosqu ad litora torquent per conubia nostra,himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa vitae enim velit. Ut ut posuere orci, id dapibus odio. himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa",
+        },
+        {
+            "img": "/img/timeline-2.jpg",
+            "subtitle": team.pm,
+            "title": "Product Manager",
+            "description": team.pm + " è un Product Manager che, nel corso degli anni, ha costruito una solida carriera lavorando con una vasta gamma di aziende, dalle software house alle startup, fino a privati e società di servizi. La sua passione per la tecnologia lo ha portato a specializzarsi nello sviluppo di prodotti web, per poi approfondire il campo delle architetture software. Emanuele crede fermamente nell'importanza di una conoscenza approfondita degli strumenti software per progettare sistemi affidabili, sicuri e performanti. Ogni progetto rappresenta per lui un'opportunità di applicare la sua expertise, garantendo soluzioni su misura che rispondano perfettamente alle esigenze specifiche di ogni cliente.",
+        },
+    ],
+    "aboutus": {
+        "title": "chi siamo",
+        "subtitle": "il team",
+    },
+    "aboutuswhychoose": {
+        "badgetitle": "10+",
+        "badgedescription": "anni",
+        "section": "Perchè sceglierci",
+        "title": "La nostra storia",
+        "description": "Dopo i primi progetti scolastici, ogni membro del nostro team ha seguito percorsi diversi nel settore informatico, accumulando anni di esperienza in software house, progetti personali e startup innovative. La passione per la tecnologia e il desiderio di fare la differenza ci hanno riuniti nuovamente. Ora, con un bagaglio ricco di competenze tecniche e strategiche, collaboriamo per supportare aziende e startup. Il nostro obiettivo è fornire soluzioni software su misura che trasformino le idee innovative in realtà tangibili, utilizzando ogni sfida come un'opportunità per crescere insieme.",
+    }
 };
   
 const data = [

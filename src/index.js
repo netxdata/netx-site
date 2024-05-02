@@ -39,11 +39,11 @@ function Root() {
       {/* <Route exact path="/index2" component={HomePageTwo} /> */}
       {/* all inner page load layout component */}
       <Layout>
-        {/* <Route
+        <Route
           exact
           path={`${process.env.PUBLIC_URL}/about`}
           component={About}
-        /> */}
+        />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/service`}

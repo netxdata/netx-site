@@ -1,4 +1,5 @@
 import React from 'react'
+import { copy } from '../../../data/data'
 
 function WhyChooseUs() {
   return (
@@ -16,18 +17,18 @@ function WhyChooseUs() {
                   <img src={process.env.PUBLIC_URL + "/img/why-3.jpg"} alt="why-choose images" />
                 </div>
                 <div className="years">
-                  <h5>20+</h5>
-                  <span>Years</span>
+                  <h5>{copy.aboutuswhychoose.badgetitle}</h5>
+                  <span>{copy.aboutuswhychoose.badgedescription}</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="why-choose-right">
                 <div className="sec-title layout2">
-                  <span>Why Choose</span>
-                  <h2>Phasellus tristique a nisi etal tristique Cras interdum.</h2>
+                  <span>{copy.aboutuswhychoose.section}</span>
+                  <h2>{copy.aboutuswhychoose.title}</h2>
                 </div>
-                <div className="counter-boxes">
+                {/* <div className="counter-boxes">
                   <div className="count-box">
                     <span className="counter">150</span><sup>+</sup>
                     <h5>Project Completed</h5>
@@ -40,13 +41,13 @@ function WhyChooseUs() {
                     <span className="counter">50</span><sup>+</sup>
                     <h5>Expert Teams</h5>
                   </div>
-                </div>
-                <p>Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Class onlin aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only himenaeos. Praesent nec neque at dolor venenatis consectetur eu quis ex. the Donec lacinia placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsum. Praesent commodo at massa eget suscipit. Utani vitae enim velit. Ut ut posuere orci, id dapibus odio.</p>
-                <div className="buttons-group">
+                </div> */}
+                <p>{copy.aboutuswhychoose.description}</p>
+                {/* <div className="buttons-group">
                   <span>24/7 Support</span>
                   <span>Unique Design</span>
                   <span>Clean Code Develope</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
