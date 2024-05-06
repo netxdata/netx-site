@@ -174,25 +174,19 @@ export const copy = {
             "title": identity.services[3],
             "description": identity.servicesDescription[3],
         },
-        {
-            "number": "05",
-            "img": "/img/icons/service-icon-5.png",
-            "title": "We Are Open Our Office",
-            "description": "purus odio, placerat nec rhoncus in, ullamcorper nec aptent taciti sociosqu ad litora torquent per conubia nostra, himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa vitae enim velit. Ut ut posuere orci, id dapibus odio. himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa",
-        },
     ],
     "aboutuscomponent": [
         {
             "img": "/img/timeline-1.jpg",
             "subtitle": "CTO",
             "title": team.cto,
-            "description": team.cto + ", Integer purus odio, placerat nec rhoncus in, ullamcorper nec aptent taciti sociosqu ad litora torquent per conubia nostra,himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa vitae enim velit. Ut ut posuere orci, id dapibus odio. himenaeos. Praesent nec neque at dolor venenatis thoseaol Donec lacinia placerat felis non aliquam.Mauris nec justo ag euismod sit amet non ipsum. Praesent commodo at massa",
+            "description": "Professionista nel settore dell'automazione e delle tecnologie fintech, con una solida esperienza come Responsabile Tecnico, ha un forte impegno verso l'efficienza dei processi, riflettendo un profondo impegno professionale e una visione imprenditoriale focalizzata sull'avanguardia tecnologica. La sua carriera è stata arricchita da esperienze formative di rilievo, incluso il completamento di corsi di automazione di alto livello presso TMEIC (Toshiba) a Tokyo, Giappone, e Ansaldo in Francia. In qualità di CTO di Lendit, una pluripremiata startup nel settore fintech, ha guidato il team nello sviluppo e nell'implementazione di soluzioni innovative, contribuendo significativamente alla crescita e al successo dell'azienda.",
         },
         {
             "img": "/img/timeline-2.jpg",
-            "subtitle": team.pm,
-            "title": "Product Manager",
-            "description": team.pm + " è un Product Manager che, nel corso degli anni, ha costruito una solida carriera lavorando con una vasta gamma di aziende, dalle software house alle startup, fino a privati e società di servizi. La sua passione per la tecnologia lo ha portato a specializzarsi nello sviluppo di prodotti web, per poi approfondire il campo delle architetture software. Emanuele crede fermamente nell'importanza di una conoscenza approfondita degli strumenti software per progettare sistemi affidabili, sicuri e performanti. Ogni progetto rappresenta per lui un'opportunità di applicare la sua expertise, garantendo soluzioni su misura che rispondano perfettamente alle esigenze specifiche di ogni cliente.",
+            "title": team.pm,
+            "subtitle": "Product Manager",
+            "description": "Product manager e sviluppatore software che, nel corso degli anni, ha costruito una solida carriera lavorando con una vasta gamma di aziende, dalle software house alle startup, fino a privati e società di servizi. La sua passione per la tecnologia lo ha portato a specializzarsi nello sviluppo di prodotti web, per poi approfondire il campo delle architetture software. Emanuele crede fermamente nell'importanza di una conoscenza approfondita degli strumenti software per progettare sistemi affidabili, sicuri e performanti. Ogni progetto rappresenta per lui un'opportunità di applicare la sua expertise, garantendo soluzioni su misura che rispondano perfettamente alle esigenze specifiche di ogni cliente.",
         },
     ],
     "aboutus": {
@@ -200,7 +194,7 @@ export const copy = {
         "subtitle": "il team",
     },
     "aboutuswhychoose": {
-        "badgetitle": "10+",
+        "badgetitle": "20+",
         "badgedescription": "anni",
         "section": "Perchè sceglierci",
         "title": "La nostra storia",
