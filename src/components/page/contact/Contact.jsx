@@ -12,7 +12,7 @@ function Contact() {
         <AnimateLine />
         <Breadcrumb pageTitle={copy.contact.cta1} pageName={copy.contact.cta1} />
         <ContactWrapper />
-        <SubscribArea />
+        {/* <SubscribArea /> */}
       </div>
     </>
   );

@@ -25,7 +25,7 @@ function MailchimpFullForm() {
           </div>
           <div className="optionalParent">
               <div className="clear foot">
-                  <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Subscribe" />
+                  <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Invia" />
               </div>
           </div>
       </div>
