@@ -12,7 +12,7 @@ function HeroArea() {
     <>
      <section className="hero-area">
         <div className="ken-burns-slideshow">
-          <img src={process.env.PUBLIC_URL + "/img/hero-banner.jpg"} alt="HeroBanner" />
+          <img src={process.env.PUBLIC_URL + "/img/image.png"} alt="HeroBanner" />
         </div>
         {/* <div className="verticale-social">
           <ul className="vertical-media">

@@ -177,13 +177,13 @@ export const copy = {
     ],
     "aboutuscomponent": [
         {
-            "img": "/img/timeline-1.jpg",
+            "img": "/img/startup1.jpg",
             "subtitle": "CTO",
             "title": team.cto,
             "description": "Professionista nel settore dell'automazione e delle tecnologie fintech, con una solida esperienza come Responsabile Tecnico, ha un forte impegno verso l'efficienza dei processi, riflettendo un profondo impegno professionale e una visione imprenditoriale focalizzata sull'avanguardia tecnologica. La sua carriera è stata arricchita da esperienze formative di rilievo, incluso il completamento di corsi di automazione di alto livello presso TMEIC (Toshiba) a Tokyo, Giappone, e Ansaldo in Francia. In qualità di CTO di Lendit, una pluripremiata startup nel settore fintech, ha guidato il team nello sviluppo e nell'implementazione di soluzioni innovative, contribuendo significativamente alla crescita e al successo dell'azienda.",
         },
         {
-            "img": "/img/timeline-2.jpg",
+            "img": "/img/startup2.jpg",
             "title": team.pm,
             "subtitle": "Product Manager",
             "description": "Product manager e sviluppatore software che, nel corso degli anni, ha costruito una solida carriera lavorando con una vasta gamma di aziende, dalle software house alle startup, fino a privati e società di servizi. La sua passione per la tecnologia lo ha portato a specializzarsi nello sviluppo di prodotti web, per poi approfondire il campo delle architetture software. Emanuele crede fermamente nell'importanza di una conoscenza approfondita degli strumenti software per progettare sistemi affidabili, sicuri e performanti. Ogni progetto rappresenta per lui un'opportunità di applicare la sua expertise, garantendo soluzioni su misura che rispondano perfettamente alle esigenze specifiche di ogni cliente.",

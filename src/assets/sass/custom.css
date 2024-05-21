@@ -1,8 +1,59 @@
 /*-----------------------------------------------------------------------------------
+    Variables (cloned from others files)
+-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------
     Custom
 -----------------------------------------------------------------------------------*/
 .single-partner {
   filter: grayscale(1);
+}
+
+@keyframes kenburns {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    transform: scale3d(1.5, 1.5, 1.5) translate3d(-50px, -40px, 0px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  100% {
+    transform: scale3d(1.5, 1.5, 1.5) translate3d(-40px, -20px, 0px);
+    opacity: 0;
+  }
+}
+.ken-burns-slideshow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 50%;
+  border-radius: 100px 0px 0px 0px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .ken-burns-slideshow {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .ken-burns-slideshow {
+    width: 45%;
+    top: 50%;
+    transform: translateY(-10%);
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .ken-burns-slideshow {
+    top: 50%;
+    transform: translateY(-10%);
+  }
+}
+.ken-burns-slideshow img {
+  width: 100%;
+  animation: kenburns 40s infinite;
 }
 
 /*-----------------------------------------------------------------------------------

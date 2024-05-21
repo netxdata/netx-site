@@ -10,11 +10,14 @@ function WhyChooseUs() {
             <div className="col-lg-6">
               <div className="why-choose-left">
                 <div className="choose-banner1">
-                  <img src={process.env.PUBLIC_URL + "/img/why-1.jpg"} alt="why-choose images" />
+                  {/* <img src={process.env.PUBLIC_URL + "/img/why-1.jpg"} alt="why-choose images" /> */}
+                  <img src={process.env.PUBLIC_URL + "/img/image-alta-2.jpg"} alt="why-choose images" />
                 </div>
                 <div className="choose-banner2">
-                  <img src={process.env.PUBLIC_URL + "/img/why-2.jpg"} alt="why-choose images" />
-                  <img src={process.env.PUBLIC_URL + "/img/why-3.jpg"} alt="why-choose images" />
+                  {/* <img src={process.env.PUBLIC_URL + "/img/why-2.jpg"} alt="why-choose images" />
+                  <img src={process.env.PUBLIC_URL + "/img/why-3.jpg"} alt="why-choose images" /> */}
+                  <img src={process.env.PUBLIC_URL + "/img/image-selfie.png"} alt="why-choose images" />
+                  {/* <img src={process.env.PUBLIC_URL + "/img/why-3.jpg"} alt="why-choose images" /> */}
                 </div>
                 <div className="years">
                   <h5>{copy.aboutuswhychoose.badgetitle}</h5>
