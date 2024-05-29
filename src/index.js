@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Layout from "./components/App";
 import MainLayout from "./components/layout/MainLayout";
 import About from "./components/page/about/About";
+import Qr from "./components/page/qr/Qr";
 import BlogSidebar from "./components/page/blog/BlogSidebar";
 import BlogDetails from "./components/page/BlogDetails/BlogDetails";
 import BlogStandard from "./components/page/BlogStandard/BlogStandard";
@@ -58,6 +59,11 @@ function Root() {
           exact
           path={`${process.env.PUBLIC_URL}/error`}
           component={ErrorPage}
+        />
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/qr`}
+          component={Qr}
         />
         {/* <Route
           exact
