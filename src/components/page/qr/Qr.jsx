@@ -27,10 +27,10 @@ const QrImage = styled.img`
 const Qr = () => {
   useEffect(() => {
     //mount
-    $("header, footer").hide();
+    $("header, footer, #CookiebotWidget").hide();
     return () => {
       //unmount
-      $("header, footer").show();
+      $("header, footer, #CookiebotWidget").show();
     };
   }, []);
 
