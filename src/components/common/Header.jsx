@@ -89,7 +89,7 @@ function Header() {
               >
               {/* <Link to={"/"} onClick={scrollTop}> */}
                 <img
-                  src={process.env.PUBLIC_URL + "img/logo-dark.svg"}
+                  src={process.env.PUBLIC_URL + "img/netX-logo.png"}
                   alt="images"
                 />
               </Link>
@@ -327,7 +327,7 @@ function Header() {
 
         </div>
         
-        {/* <div className="nav-right">
+        <div className="nav-right">
           <div className="get-qoute">
             <div className="cmn-btn">
               <div className="line-1" />
@@ -347,7 +347,7 @@ function Header() {
               <span className="cross-bottom" />
             </Link>
           </div>
-        </div> */}
+        </div>
       </header>
     </>
   );
