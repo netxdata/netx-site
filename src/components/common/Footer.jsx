@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { identity } from "../../data/data";
-import { emanuele_wa } from "../../data/data";
+import Iubenda from "./iubenda/Iubenda";
+import data from "../../data/data";
 
 function Footer(props) {
   const scrollTop=()=>window.scrollTo({top:0,behavior:"smooth"})
@@ -136,26 +137,28 @@ function Footer(props) {
             </div>
           </div>
           <div className="footer-bottom">
-            {/* <div className="row align-items-center">
+            <div className="row align-items-center">
               <div className="col-12 col-md-4 col-lg-4 col-xl-5">
                 <div className="copy-txt">
                   <span>
-                    Copyright 2022 <b>Crea soft</b> | Design By{" "}
-                    <Link to={"#"}>Egens Lab</Link>
+                    Copyright 2024
+                    <b> {identity.name}</b> 
+                    {/* | Design By{" "}
+                    <Link to={"#"}>Egens Lab</Link> */}
                   </span>
                 </div>
               </div>
               <div className="col-12 col-md-8 col-lg-8 col-xl-7">
                 <ul className="footer-bottom-menu">
                   <li>
-                    <Link to={"#"}>Privacy Policy</Link>
+                    <Iubenda />
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={"#"}>Terms of Use</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </footer>
