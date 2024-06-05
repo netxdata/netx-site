@@ -1,5 +1,6 @@
 import React from "react";
 import { copy } from "../../../data/data";
+import Iubenda from "../iubenda/Iubenda";
 
 function MailchimpFullForm() {
   return (
@@ -23,6 +24,7 @@ function MailchimpFullForm() {
               {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
               <input type="text" name="b_cdea3b05c8eb225aab7ce8071_9fe854216f" tabIndex="-1" defaultValue="" />
           </div>
+          <Iubenda />
           <div className="optionalParent">
               <div className="clear foot">
                   <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Invia" />
