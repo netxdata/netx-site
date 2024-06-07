@@ -93,6 +93,8 @@ $responsive-mobile-menu: 'only screen and (max-width: 1199px)';
     }
     #gdpr_188, #gdpr_189 {
         width: unset !important;
+        height: unset !important;
+        margin: 0 !important;
     }
     .mc-checkbox {
         display: flex;
@@ -108,5 +110,14 @@ $responsive-mobile-menu: 'only screen and (max-width: 1199px)';
     }
     .content__gdprRequired {
         margin-bottom: 13px;
+    }
+    .content__gdpr__leggi {
+        margin-top: 20px;
+    }
+    .content__gdpr {
+        fieldset {
+            display: flex;
+            gap: 5px;
+        }
     }
 }

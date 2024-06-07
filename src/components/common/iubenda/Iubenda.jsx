@@ -27,13 +27,15 @@ const Iubenda = () => {
   }, []);
 
   return (
-    <a
-      href="https://www.iubenda.com/privacy-policy/18177949"
-      className="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe"
-      title="Privacy Policy"
-    >
-      Privacy Policy
-    </a>
+    <span>
+      <a
+        href="https://www.iubenda.com/privacy-policy/18177949"
+        className="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe"
+        title="Informativa sulla privacy"
+      >
+        informativa sulla privacy
+      </a>
+    </span>
   );
 };
 

@@ -1,8 +1,16 @@
 import React from "react";
 import { copy } from "../../../data/data";
 import Iubenda from "../iubenda/Iubenda";
+import GdprMailchimpSection from "./GdprMailchimpSection";
 
 function MailchimpFullForm() {
+  const handleSubmit = (event) => {
+    const checkbox = document.getElementById('gdpr_188');
+    if (!checkbox.checked) {
+      alert('Devi accettare l\'informativa sulla privacy prima di inviare il modulo.');
+      event.preventDefault();
+    }
+  };
   return (
     <form 
       action="https://netxdata.us22.list-manage.com/subscribe/post?u=cdea3b05c8eb225aab7ce8071&amp;id=9fe854216f&amp;f_id=00c3c4e1f0" 
@@ -11,6 +19,7 @@ function MailchimpFullForm() {
       name="mc-embedded-subscribe-form" 
       className="validate" 
       target="_self" 
+      onSubmit={handleSubmit}
     >
       <div id="mc_embed_signup_scroll">
           <div className="mc-field-group"><input type="email" name="EMAIL" className="required email" id="mce-EMAIL" placeholder={copy.contact.form.copy2} required /></div>
@@ -24,7 +33,7 @@ function MailchimpFullForm() {
               {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
               <input type="text" name="b_cdea3b05c8eb225aab7ce8071_9fe854216f" tabIndex="-1" defaultValue="" />
           </div>
-          <Iubenda />
+          <GdprMailchimpSection />
           <div className="optionalParent">
               <div className="clear foot">
                   <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Invia" />

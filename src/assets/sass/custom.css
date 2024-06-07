@@ -64,6 +64,8 @@
 }
 #mc-embedded-subscribe-form #gdpr_188, #mc-embedded-subscribe-form #gdpr_189 {
   width: unset !important;
+  height: unset !important;
+  margin: 0 !important;
 }
 #mc-embedded-subscribe-form .mc-checkbox {
   display: flex;
@@ -79,6 +81,13 @@
 }
 #mc-embedded-subscribe-form .content__gdprRequired {
   margin-bottom: 13px;
+}
+#mc-embedded-subscribe-form .content__gdpr__leggi {
+  margin-top: 20px;
+}
+#mc-embedded-subscribe-form .content__gdpr fieldset {
+  display: flex;
+  gap: 5px;
 }
 
 /*# sourceMappingURL=custom.css.map */
