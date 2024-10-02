@@ -17,7 +17,7 @@ export const identity = {
     "slogan": "Il ponte tra tecnologia e innovazione.",
     "team": name + " è un team affiatato, con radici ben piantate nel mondo delle startup e una passione sfrenata per la tecnologia. Uniti da legami forti nel settore, pronti a fare quel miglio in più per far decollare le vostre idee. Per noi, ogni sfida tecnologica è un'avventura, e ogni startup con cui collaboriamo diventa parte della famiglia.",
     "phone1": emanuele_wa,
-    "address": "Viale Vincenzo Lancetti, 43, 20158 Milano MI",
+    "address": "Via Copernico, 38, 20125 Milano MI",
     "mail1": mail,
     "services": [
         "Consulenza Tecnica per Startup",
